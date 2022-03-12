@@ -1,11 +1,197 @@
-<!DOCTYPE html>
-<html>
-<body>
+<!doctype html>
 
-<h1>Hello World!</h1>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>J.W. basic layout</title>
 
-<p>J.W.</p>
+</head>
+<style>
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  background-image:url("depositphotos_63153027-stock-illustration-black-and-white-vector-beehive.jpg");
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  background-color: black;
+  color: #f2fa5a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f2fa5a;
+  color: black;
+}
+
+.centerlize {
+z-index: 950;
+  color: black;
+  font-size: large;
+  margin-top:20px;
+  margin-bottom:auto;
+  margin-left: auto;
+  margin-right:auto;
+  width: 50%;
+  border: 5px solid black;
+  padding: 10px;
+}
+.centerlize2 {
+  color: black;
+  font-size: large;
+  margin-top:70px;
+  margin-bottom:auto;
+  margin-left: auto;
+  margin-right:auto;
+  width: 80%;
+  border-top: 5px solid black;
+}
+h1 {text-align: center;}
+.column {
+  float: left;
+  width: 33%;
+}
+
+.row{
+ text-align:center;
+ 
+}
+.social_media {
+margin-top:10px;
+background: none;
+border: none;
+}
+.social_media:hover {
+  background: black;
+  color: #f2fa5a;
+}
+.bee {
+position:absolute;
+top: 15%;
+right:2%;
+z-index: 900;
+background:transparent url("196-1969668_honey-bee-with-transparent-background.png");
+}
+</style>
+<body style="background: #f2fa5a;">
+  <div class="topnav">
+	<a href="">Strona Główna</a>
+	<a href="">Oferta</a>
+	<a href="">Promocje</a>
+	<a href="">O nas</a>
+    <a href="">Zaloguj się</a>
+  </div> 
+  
+  <div class="centerlize">
+    <h1 style="font-size: xxx-large;">Witamy</h1>
+	<p>
+	
+
+    &emsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend erat sem, ut ullamcorper neque dictum sed. Suspendisse potenti. Quisque in purus et ligula accumsan molestie nec id sem. Phasellus vitae est ornare, porttitor nisl vitae, laoreet mi. Ut elementum porttitor risus. Nunc accumsan justo et efficitur maximus. Nunc nec urna diam. Duis lacinia fermentum risus, vitae consequat orci lacinia a. </br>  &emsp; Sed consectetur feugiat maximus.
+
+Praesent suscipit, massa nec feugiat finibus, tellus metus congue diam, at porttitor velit metus vitae mauris. Praesent ut varius mauris. Ut sed tellus vehicula, pulvinar magna ac, accumsan enim. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus aliquet nulla et nibh facilisis, pretium accumsan augue fringilla. Praesent ut mattis augue. Proin scelerisque hendrerit ultricies. Nunc rutrum eu metus quis suscipit. Morbi vitae ante a nisl commodo faucibus eget fringilla lorem. Duis tempor nulla vitae erat vestibulum sodales. Nullam eget sodales nisi. Fusce tempus tempus arcu eu bibendum. Nulla ac scelerisque urna. Fusce lobortis lectus vitae tristique consectetur. Vivamus id neque tellus.
+
+Nunc dapibus mi vitae eros mattis imperdiet. </br> &emsp;  Aenean porttitor auctor viverra. Etiam quis urna in sapien consequat luctus nec id mauris. Vestibulum tristique condimentum sapien a varius. Vivamus aliquam dignissim molestie. Praesent ut semper magna. Ut sed ipsum nibh. Phasellus diam metus, gravida consequat mauris at, vehicula euismod nisi.
+
+Cras tristique quis nisi eu dapibus. Aenean eleifend purus sed lacus vulputate, nec bibendum leo ultricies. In a erat vitae ante bibendum interdum. Donec lorem enim, consequat sed risus eget, pharetra accumsan odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus scelerisque nisi nec elementum eleifend. Nunc maximus felis ac enim dapibus, ac rhoncus purus feugiat. Nullam tempor condimentum nibh, ac gravida sapien tempor vitae. Nulla at feugiat mauris. Proin metus nisl, tempus quis euismod id, porta sed enim. Vivamus consequat dolor sit amet dolor convallis dictum. Integer ac nunc quis felis scelerisque fringilla. Fusce eget est sit amet dui laoreet tempor sit amet sit amet nunc. Aenean non nunc condimentum, convallis magna in, feugiat nisl. Nullam mattis magna vel risus rhoncus, at hendrerit justo ullamcorper. Duis aliquam erat eget posuere vulputate.
+
+Nullam ac nisi non quam consequat faucibus ac non tellus.
+	</p>
+  </div>
+  <div class="bee">
+  <img src="png-transparent-bee-black-and-white-free-content-black-and-white-bee-honey-bee-white-monochrome.png" style="max-width:400px">
+  </div>
+  
+    <div class="centerlize2">
+    <div class="row">
+    <h1>Znajdź nas tutaj</h1>
+    </div>
+	 <div class="row" >
+  <div class="column">
+    <!----  TWITTER ICON  --->
+    <a href="">
+    <button class="social_media">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" 
+            height="64" fill="currentColor" class="bi bi-twitter"
+            viewBox="0 0 16 16">
+  
+            <path d="M5.026 15c6.038 0 9.341-5.003 
+            9.341-9.334 0-.14 0-.282-.006-.422A6.685 
+            6.685 0 0 0 16 3.542a6.658 6.658 0 0 
+            1-1.889.518 3.301 3.301 0 0 0 1.447-1.817
+            6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 
+            0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 
+            3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 
+            0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 
+            2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 
+            3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 
+            2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 
+            0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+        </svg>
+        </button>
+        </a>
+  </div>
+  <div class="column">
+    <!----  GOOGLE ICON  --->
+    <a href="">
+    <button class="social_media">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" 
+            height="64" fill="currentColor" class="bi bi-google"
+            viewBox="0 0 16 16">
+  
+            <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 
+            1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 
+            15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 
+            0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 
+            0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 
+            4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 
+            4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003
+            a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+        </svg>
+        </button>
+        </a>
+  </div>
+  <div class="column">
+  <a href="">
+  <button class="social_media">
+    <svg xmlns="http://www.w3.org/2000/svg" width="64" 
+            height="64" fill="currentColor" class="bi bi-youtube"
+            viewBox="0 0 16 16">
+  
+            <path d="M8.051 1.999h.089c.822.003 4.987.033 
+            6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172
+            .883.22 1.402l.01.104.022.26.008.104c.065.914.073
+            1.77.074 1.957v.075c-.001.194-.01 1.108-.082 
+            2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 
+            1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312
+            -5.569.334-6.18.335h-.142c-.309 0-1.587-.006
+            -2.927-.052l-.17-.006-.087-.004-.171-.007-.171
+            -.007c-1.11-.049 -2.167-.128-2.654-.26a2.007 
+            2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986
+            -.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 
+            1 0 7.68v-.123c.002-.215.01-.958.064-1.778l
+            .007-.103.003-.052.008-.104.022-.26.01-.104c
+            .048-.519.119-1.023.22-1.402a2.007 2.007 0 0 
+            1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17
+            -.007.172-.006.086-.003.171-.007A99.788 99.788 
+            0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157
+            -2.408L6.4 5.209z" />
+        </svg>
+        </button>
+        </a>
+  </div>
+</div> 
+  </div>
 
 </body>
 </html>
+
+<!-- https://toppng.com/uploads/preview/bee-bee-icon-11553482464z3qiscqxem.png -->
