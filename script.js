@@ -19,12 +19,8 @@ document.addEventListener('click', event => {
     const target = event.target
     const isCell = target.classList.contains('grid-cell')
     const isMarked = target.classList.contains('disabled')
-    console.log(isCell)
-            console.log(isMarked)
     if (isCell && !isMarked) {
         const cellID = target.dataset.value
-            console.log(isCell)
-            console.log(isMarked)
         if (game.whoPlays == 'x') {
             game.xComb.add(cellID)
             target.classList.add('disabled')
