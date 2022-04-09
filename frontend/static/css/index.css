@@ -1,0 +1,208 @@
+body {
+    --nav-width: 150px;
+    margin: 0 0 0 var(--nav-width);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    background: #f2fa5a;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--nav-width);
+    height: 100vh;
+    background: #222222;
+    
+}
+
+.nav__link {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: 500;
+    color: #f2fa5a;
+}
+
+.nav__link:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+#app {
+    margin: 2em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.topnav {
+    overflow: hidden;
+    background-image:url("depositphotos_63153027-stock-illustration-black-and-white-vector-beehive.jpg");
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    background-color: black;
+    color: #f2fa5a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: x-large;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #f2fa5a;
+    color: black;
+  }
+  
+  .centerlize {
+  z-index: 950;
+    color: black;
+    font-size: large;
+    margin-top:20px;
+    margin-bottom:auto;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+    border: 5px solid black;
+    padding: 10px;
+  }
+  .centerlize2 {
+    color: black;
+    font-size: large;
+    margin-top:70px;
+    margin-bottom:auto;
+    margin-left: auto;
+    margin-right:auto;
+    width: 80%;
+    border-top: 5px solid black;
+  }
+  h1 {position: center;
+      text-align: center;}
+  .column {
+    float: left;
+    width: 33%;
+  }
+  
+  .row{
+   text-align:center;
+   
+  }
+
+  img {
+      width: 300px;
+  }
+  .social_media {
+  margin-top:10px;
+  background: none;
+  border: none;
+  }
+  .social_media:hover {
+    background: black;
+    color: #f2fa5a;
+  }
+  .bee {
+  position:absolute;
+  top: 15%;
+  right:2%;
+  z-index: 900;
+  background:transparent url("196-1969668_honey-bee-with-transparent-background.png");
+  }
+
+  .product{
+    border: 5px solid black;
+    padding: 10px;
+  }
+  
+  table{
+    margin-top:20px;
+    margin-bottom:auto;
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+  td{
+      text-align: center;
+  }
+
+  
+
+  @media screen and (max-width: 1250px) {
+
+    body {
+        --nav-width: 150px;
+        margin: 0 0 0 0;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 18px;
+        background: #f2fa5a;
+    }
+    
+    .nav {
+        position: fixed;
+        width: 100%;
+        height: 45px;
+        background: #222222;
+        display: inline-block;
+    }
+
+    .nav__link {
+        display: inline-block;
+        padding: 12px 18px;
+        text-decoration: none;
+        color: #eeeeee;
+        font-weight: 500;
+        color: #f2fa5a;
+    }
+    table {
+      border: 0;
+    }
+    img {
+        width: 500px;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: center;
+      width: auto;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
