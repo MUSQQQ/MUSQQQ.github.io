@@ -1,5 +1,5 @@
 body {
-    margin: 50;
+    margin: 0;
     padding: 0;
 }
 
@@ -129,7 +129,6 @@ header nav section label * {
 header nav ul#nav-menu {
     padding: 0;
     margin: .2rem 0;
-    display: none;
     flex-direction: column;
     font-family: Boogaloo;
     align-items: stretch;
@@ -154,7 +153,7 @@ header nav ul li a {
 
 main #spotlight {
     display: flex;
-    flex-direction: column;
+    flex: 1;
 }
 
 main #spotlight img {
@@ -216,7 +215,7 @@ footer #copyright-information p {
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     body {
-        max-width: 38.43rem;
+        max-width: 48.04rem;
         margin: 0 auto;
     }
 
@@ -307,11 +306,6 @@ footer #copyright-information p {
     header nav ul li {
         margin-top: 0;
         border-radius: 7px;
-    }
-
-    main #spotlight {
-        flex-direction: row;
-        justify-content: center;
     }
 
     section#characters {
