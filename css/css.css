@@ -137,7 +137,7 @@ header nav ul#nav-menu {
 header nav ul li {
     list-style: none;
     background-color: #000000;
-    padding: 10px 17px;
+    padding: 15px 20px;
     border-radius: 7px;
     margin-top: .5rem;
 }
@@ -156,8 +156,22 @@ main #section-child {
     flex: 1;
 }
 
+main #section-child .break-1 {
+    background-color: #000;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 main #section-child img {
     width: 100%;
+    height: 100%;
+}
+
+main #section-child img:hover{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 main #section-child #cool {
@@ -192,6 +206,7 @@ section#featured article {
 
 section#featured article img {
         min-width: 30%;
+        min-height: 30%;
     }
 
 footer {
@@ -230,7 +245,12 @@ div#fire{
     overflow: hidden;
 }
 
-@media only screen and (min-width: 1210px) {
+section#featured img {
+    width: 30%;
+    height: 30%;
+}
+
+@media only screen and (min-width: 1240px) {
     /* For desktop: */
     body {
         max-width: 67.256rem;
@@ -337,8 +357,9 @@ div#fire{
         margin: .3rem 0;
     }
 
-    section#characters img {
-        width: 100%;
+    section#featured img {
+        width: 30%;
+        height: 30%;
     }
 
     section#featured {
@@ -370,13 +391,14 @@ div#fire{
 }
 
 .morph::before {
-    content: "Poisoning";
+    content: "POISONING";
     -webkit-animation: changeText 20s infinite;
 }
 
 .morph{
     text-align: center;
     vertical-align: middle;
+    overflow: hidden;
 }
 
 @-webkit-keyframes changeText {
