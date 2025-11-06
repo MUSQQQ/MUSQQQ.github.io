@@ -27,7 +27,7 @@ h1, h2, h3 {
 .banner-wrapper .banner-logo img {
     background-color: #000000;
     justify-content: center;
-    max-width: 50%;
+    max-width: 80%;
 }
 
 #header-banner .banner-wrapper aside  {
@@ -243,7 +243,7 @@ main #section-child #cool-2 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
 }
 
 
@@ -423,6 +423,12 @@ section#featured-2 a:hover{
         transform: rotate(90deg);
     }
 
+    .banner-wrapper .banner-logo img {
+        background-color: #000000;
+        justify-content: center;
+        max-width: 50%;
+    }
+
     header .info-wrapper div:first-child {
         height: 3rem;
         flex-direction: row;
@@ -474,6 +480,17 @@ section#featured-2 a:hover{
         border-radius: 7px;
     }
 
+    main #section-child #cool-2 {
+        width: 200%;
+        font-size: medium;
+        font-family: Boogaloo;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 150%;
+    }
+
     section#characters {
         display: flex;
         margin: .3rem 0;
@@ -519,9 +536,7 @@ section#featured-2 a:hover{
 
 .morph{
     text-align: center;
-    vertical-align: middle;
-    min-height: 45%;
-    text-overflow: hidden;
+    justify-content: center;
 }
 
 @-webkit-keyframes changeText {
@@ -537,7 +552,7 @@ section#featured-2 a:hover{
     }
     17% {
         content: "POISONING";
-        font-size: 100%;
+        font-size: 435%;
         opacity: 0;
     }
     21% {
@@ -552,7 +567,7 @@ section#featured-2 a:hover{
     }
     38% {
         content: "YOUR";
-        font-size: 100%;
+        font-size: 435%;
         opacity: 0;
     }
     42% {
@@ -567,7 +582,7 @@ section#featured-2 a:hover{
     }
     59% {
         content: "MINDS";
-        font-size: 100%;
+        font-size: 435%;
         opacity: 0;
     }
     63% {
@@ -582,7 +597,7 @@ section#featured-2 a:hover{
     }
     80% {
         content: "SINCE";
-        font-size: 100%;
+        font-size: 435%;
         opacity: 0;
     }
     84% {
@@ -597,7 +612,7 @@ section#featured-2 a:hover{
     }
     100% {
         content: "2017";
-        font-size: 100%;
+        font-size: 435%;
         opacity: 0;
     }
 }
