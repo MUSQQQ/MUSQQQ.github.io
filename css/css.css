@@ -59,7 +59,7 @@ header .info-wrapper div:first-child {
     border-bottom: .5rem solid #ff3301;
     font-family: Boogaloo;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 header .info-wrapper div:first-child * {
@@ -194,6 +194,7 @@ main #section-child .break-wrapper {
     flex-direction: column;
     text-align: center;
     width: 100%;
+    color: #fff;
 }
 
 main #section-child .break-1 {
@@ -210,7 +211,7 @@ main #section-child .break-1 #credit {
 main #section-child img {
     background-color: #000000;
     justify-content: center;
-    max-width: 65%;
+    max-width: 80%;
 }
 
 main #section-child img:hover{
@@ -373,7 +374,7 @@ section#featured-2 a:hover{
     color:#d00000;
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1500px) {
     /* For desktop: */
     body {
         max-width: 100%;
@@ -512,6 +513,12 @@ section#featured-2 a:hover{
 
     section#featured a:hover{
         color:#d00000;
+    }
+
+    main #section-child img {
+        background-color: #000000;
+        justify-content: center;
+        max-width: 65%;
     }
 
     section#featured article {
