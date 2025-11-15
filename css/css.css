@@ -33,7 +33,38 @@ h1, h2, h3 {
 .banner-wrapper .banner-logo img {
     justify-content: center;
     max-width: 80%;
+
+    -webkit-animation: logo 15s infinite;
+    animation: logo 15s infinite;
 }
+
+@keyframes logo{
+    0%{ filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+    39%{filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+    40%{ filter: invert(100%) hue-rotate(85deg) brightness(150%);}
+    42%{filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+    59%{filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+    60%{ filter: invert(100%) hue-rotate(85deg) brightness(150%);}
+    62%{filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+    94%{filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+    95%{ filter: invert(100%) hue-rotate(85deg) brightness(150%);}
+    97%{filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+    100%{filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+   }
+
+   @-webkit-keyframes logo{
+    0%{ filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+    39%{filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+    40%{ filter: invert(100%) hue-rotate(85deg) brightness(150%);}
+    42%{filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+    59%{filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+    60%{ filter: invert(100%) hue-rotate(85deg) brightness(150%);}
+    62%{filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+    94%{filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+    95%{ filter: invert(100%) hue-rotate(85deg) brightness(150%);}
+    97%{filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+    100%{filter: invert(0%) hue-rotate(0deg) brightness(100%);}
+   }
 
 #header-banner .banner-wrapper aside  {
     background-color: #650499;
@@ -159,7 +190,8 @@ header nav ul li {
 
 header nav ul li:hover {
     background-color:#d00000;
-    box-shadow: 10px 0px 50px rgba(0, 0, 0, 0.8)
+    box-shadow: 10px 0px 50px rgba(0, 0, 0, 0.8);
+    color:#000;
 }
 
 header nav ul a li {
@@ -379,8 +411,8 @@ div#fire{
     overflow: hidden;
 }
 
-section#featured img {
-    width: 30%;
+section#featured a img {
+    width: 70%;
     height: auto;
 }
 
@@ -523,9 +555,9 @@ section#featured-2 a:hover{
         margin: .3rem 0;
     }
 
-    section#featured img {
-        width: 30%;
-        height: 30%;
+    section#featured a img {
+        width: 85%;
+        height: auto;
     }
 
     section#featured {
