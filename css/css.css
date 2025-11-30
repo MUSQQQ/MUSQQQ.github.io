@@ -246,7 +246,7 @@ main #section-child .break-1 {
 main #section-child .break-1 #bio {
    width:90%;
    font-family: Boogaloo;
-   font-size: auto;
+   font-size: 1rem;
 
    line-height: 2rem;
 
@@ -260,6 +260,14 @@ main #section-child #credit {
     font-size: 0.4rem;
     background-color: #000;
     color: #fff;
+}
+
+main #featured #credit {
+    position: left;
+    padding: 0;
+    margin: 0;
+    font-size: 0.45rem;
+    color: #000;
 }
 
 main #section-child img {
@@ -304,7 +312,7 @@ main #section-child #cool-2 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 100%;
+    font-size: 1rem;
 }
 
 
@@ -319,13 +327,12 @@ section#featured {
     font-family: Boogaloo;
     font-weight: bold;
     margin:0;
-    font-size: .6rem;
     background-image: url('../assets/img/logo.png');
     background-repeat:no-repeat;
     background-size: 315%;
     background-position-y: center;
     background-position-x: center;
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 
@@ -340,8 +347,12 @@ section#featured-2 {
     flex-direction: column;
     text-align: center;
     font-weight: bold;
-    font-size: .6rem;
+    font-size: 1rem;
     font-family: Boogaloo;
+}
+
+section#featured-2 article a {
+    font-size: 1.2rem;
 }
 
 
@@ -360,8 +371,8 @@ section#featured article#r {
 }
 
 section#featured article img {
-        min-width: 50%;
-        min-height: 50%;
+        min-width: 85%;
+        min-height: 85%;
         box-shadow: 10px 0px 50px rgba(0, 0, 0, 0.8), -10px 0px 50px rgba(0, 0, 0, 0.8);
     }
 
