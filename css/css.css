@@ -262,6 +262,16 @@ main #section-child #credit {
     color: #fff;
 }
 
+section #band-2 #credit {
+    padding: 0;
+    margin: 0;
+    justify-content: left;
+    text-align: left;
+    font-size: 0.4rem;
+    background-color: #000;
+    color: #fff;
+}
+
 main #featured #credit {
     position: left;
     padding: 0;
@@ -333,6 +343,19 @@ section#featured {
     background-position-y: center;
     background-position-x: center;
     font-size: 1.4rem;
+}
+
+section#band-2{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+section#band-2 img {
+    position: middle;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 10px 0px 50px rgba(0, 0, 0, 0.8), -10px 0px 50px rgba(0, 0, 0, 0.8);
 }
 
 
@@ -605,6 +628,15 @@ section#featured-2 a:hover{
 
 #morph-section{
     box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.8);
+}
+
+#music-section{
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(0, 255, 0);
+    font-family: Boogaloo;
+    font-size: large;
 }
 
 .morph::before {
