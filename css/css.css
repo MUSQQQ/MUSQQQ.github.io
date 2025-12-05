@@ -6,6 +6,7 @@ body {
 @font-face {
   font-family: boogaloo;
   src: url('../assets/fonts/Px437_Apricot_Mono.ttf');
+  font-display: swap;
 }
 
 h1, h2, h3 {
@@ -22,7 +23,7 @@ h1, h2, h3 {
 .banner-wrapper .banner-logo {
     background-color: #000000;
     justify-content: center;
-    background-image: url('../assets/img/slime-1.gif');
+    background-image: url('../assets/img/slime-2.gif');
     background-repeat: no-repeat;
     background-position:top;
     background-position-x: right;
@@ -124,7 +125,6 @@ header .info-wrapper .warning-message{
 
 .menu-icon {
     display: block;
-    background-image: url('../assets/img/menu-icon.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -196,7 +196,11 @@ header nav ul li:hover {
     color:#000;
 }
 
-header nav ul a li {
+header nav ul li:hover a {
+    color:#000;
+}
+
+header nav ul li a {
     text-decoration: none;
     color: #ffffff;
 }
@@ -339,7 +343,7 @@ section#featured {
     font-family: Boogaloo;
     font-weight: bold;
     margin:0;
-    background-image: url('../assets/img/logo.png');
+    background-image: url('../assets/img/logo.webp');
     background-repeat:no-repeat;
     background-size: 315%;
     background-position-y: center;
