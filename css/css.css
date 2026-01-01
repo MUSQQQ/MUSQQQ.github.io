@@ -105,6 +105,14 @@ header .info-wrapper div:first-child * {
     margin: .1rem 0;
 }
 
+header .info-wrapper div:first-child * {
+    color:#000;
+}
+
+header .info-wrapper div:first-child *:hover {
+    color:white;
+}
+
 .bood-red-color {
     color: #660000;
 }
