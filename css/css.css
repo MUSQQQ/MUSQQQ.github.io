@@ -33,6 +33,17 @@ h1, h2, h3 {
     padding-bottom: 1rem;
 }
 
+#concert-main {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    background: linear-gradient(rgba(0, 255, 0, 0.6), rgba(0,255,0,0.6)), url('../assets/img/bomb-1.jpg');
+    background-repeat:no-repeat;
+    background-size: 2300%;
+    background-position-y: center;
+    background-position-x: center;
+}
+
 .banner-wrapper .banner-logo img {
     justify-content: center;
     max-width: 80%;
@@ -489,6 +500,10 @@ section#featured-2 a:hover{
         margin: 0 auto;
     }
 
+    #concert-main {
+        background-size: 700%;
+    }
+
     div#fire{
         max-height:400px;
         max-width: 100%;
@@ -649,6 +664,14 @@ section#featured-2 a:hover{
     flex-direction: column;
     text-align: center;
     background-color: rgb(0, 255, 0);
+    font-family: Boogaloo;
+    font-size: large;
+}
+
+#concert-section{
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     font-family: Boogaloo;
     font-size: large;
 }
